@@ -139,7 +139,7 @@ class Carro:
         self.motor.frear()
 
     def calcular_direcao(self):
-        return self.direcao.valor
+        return self.direcao.valor     #Uso do return é quando apresenta dados? Não pode ser usado para chamar funções?
 
     def girar_a_direita(self):
         self.direcao.girar_a_direita()
